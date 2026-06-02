@@ -31,7 +31,8 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
 4_active_sites/
 ```
 
-## Requirements
+## Install 
+### Requirements
 
 - Python 3.12
 - ase 3.28.0
