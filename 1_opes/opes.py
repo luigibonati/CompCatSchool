@@ -7,33 +7,42 @@ import time
 import numpy as np
 from pathlib import Path
 import os
-from mace.calculators import mace_mp
 import argparse
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--temperature", type=float, default=700)
 parser.add_argument("--bias", type=str, default="OPES_METAD_EXPLORE")
 parser.add_argument("--barrier", type=float, default=1.0)
 parser.add_argument("--system", type=str, default="../0_system/init_config.xyz")
+parser.add_argument("--cvs", type=str, default="d_N2,c_N_Fe")
+parser.add_argument("--outdir", type=str, default=None)
+parser.add_argument("--franken", type=str, default=None)
+parser.add_argument("--mace", type=str, default="mh-0")
 args = parser.parse_args()
 
 # Load system
 atoms = read(args.system)
 
 # Setup MACE calculator
-calc = mace_mp(model='mh-0', head='oc20_usemppbe', device='cuda')
+if args.franken is not None:
+    from franken.calculators import FrankenCalculator
+    calc = FrankenCalculator(args.franken, device='cuda')
+else:
+    from mace.calculators import mace_mp
+    calc = mace_mp(model=args.mace, head='oc20_usemppbe', device='cuda')
 
 # MD settings
 temperature = args.temperature # K
 timestep = 0.5 # fs
-total_time = 500 # 500 # ps
+total_time = 1000 # 500 # ps
 taut = 100 # fs
-interval_info = 100 # steps
+interval_info = 200 # steps
 interval_traj = interval_info # steps
 
 # Create output directory
 root = Path.cwd()
-outdir = root / f"{int(temperature)}K_{'metad' if args.bias=='OPES_METAD' else 'explore'}_b{args.barrier}"
+outdir = root / f"{int(temperature)}K_{'metad' if args.bias=='OPES_METAD' else 'explore'}" if args.outdir is None else root / args.outdir
 outdir.mkdir(parents=True, exist_ok=True)
 os.chdir(outdir)
 
@@ -52,7 +61,7 @@ c_N_Fe: COORDINATION GROUPA=N GROUPB=Fe R_0=2.5
 w_d_N2: UPPER_WALLS ARG=d_N2 AT=2 KAPPA=0.2 EXP=2 EPS=0.1
 w_com_N2: UPPER_WALLS ARG=com_N2.z AT=10 KAPPA=1
 
-opes: {args.bias} ARG=d_N2,c_N_Fe PACE=100 BARRIER={args.barrier} TEMP={temperature} STATE_WFILE=STATES STATE_WSTRIDE=100
+opes: {args.bias} ARG={args.cvs} PACE=100 BARRIER={args.barrier} TEMP={temperature} STATE_WFILE=STATES STATE_WSTRIDE=100
 
 PRINT STRIDE={interval_info} ARG=* FILE=COLVAR
 FLUSH STRIDE=100
