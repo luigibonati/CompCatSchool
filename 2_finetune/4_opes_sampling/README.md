@@ -1,0 +1,1 @@
+New fre energy calculation using OPES with the fine-tuned potential

@@ -1,0 +1,10 @@
+data:
+  files: ["../../../1_opes/700K_explore/traj.xyz.gz"]         # can be a single file or a list of files
+  index: ":"                     # frame selection [see ASE notation]
+
+deal:
+  max_atoms_added: 0.15          # can be int (number of atoms) or float (0,1) (fraction of total atoms). Default: -1 (no limit)
+  initial_atoms: 0.2             # use up to 20% of the atoms of each species for initial training
+
+flare:
+  cutoff: 4.5

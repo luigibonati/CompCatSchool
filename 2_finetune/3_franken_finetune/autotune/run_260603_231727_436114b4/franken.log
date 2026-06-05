@@ -1,0 +1,177 @@
+2026-06-03 23:17:27.649 DEBUG (rank 0): console_logging_level: INFO
+dtype: float64
+jac_chunk_size: auto
+rf_normalization: leading_eig
+run_dir: autotune/mace_mh/0
+save_every_model: False
+save_fmaps: False
+scale_by_species: True
+seed: 1337
+backbone:
+    family: mace
+    interaction_block: 2
+    path_or_id: mace_mh/0
+best_model_selection:
+    - energy_MAE
+    - forces_MAE_species_average
+dataset:
+    max_train_samples: null
+    name: null
+    test_path: null
+    train_path: train.xyz
+    val_path: val.xyz
+metrics:
+    - energy_MAE
+    - forces_MAE
+    - forces_MAE_species
+rfs:
+    length_scale:
+      num: null
+      scale: null
+      start: null
+      stop: null
+      value: null
+      values:
+      - 1
+      - 5
+      - 10
+      - 20
+      - 25
+      - 30
+    num_random_features: 8192
+    rf_type: gaussian
+    rng_seed: 1337
+    use_offset: 'True'
+solver:
+    force_weight:
+      num: null
+      scale: null
+      start: null
+      stop: null
+      value: null
+      values:
+      - 0.01
+      - 0.1
+      - 0.5
+      - 0.9
+      - 0.99
+      - 0.999
+    l2_penalty:
+      num: 6
+      scale: log
+      start: -10
+      stop: -5
+      value: null
+      values: null
+
+2026-06-03 23:17:27.650 INFO (rank 0): Initializing default cache directory at /leonardo/home/userexternal/lbonati1/.franken
+2026-06-03 23:17:27.678 INFO (rank 0): Run folder: autotune/mace_mh/0/run_260603_231727_436114b4
+2026-06-03 23:17:27.699 INFO (rank 3): Initializing default cache directory at /leonardo/home/userexternal/lbonati1/.franken
+2026-06-03 23:17:27.699 INFO (rank 1): Initializing default cache directory at /leonardo/home/userexternal/lbonati1/.franken
+2026-06-03 23:17:27.700 INFO (rank 2): Initializing default cache directory at /leonardo/home/userexternal/lbonati1/.franken
+2026-06-03 23:17:36.831 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=1, use_offset='True', rng_seed=1337)
+2026-06-03 23:17:36.833 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=1, use_offset='True', rng_seed=1337)
+2026-06-03 23:17:36.834 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=1, use_offset='True', rng_seed=1337)
+2026-06-03 23:17:36.836 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=1, use_offset='True', rng_seed=1337)
+2026-06-03 23:17:50.014 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:17:50.014 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:17:50.337 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:17:51.445 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:18:47.146 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:18:48.677 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:18:48.855 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:18:48.859 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:18:50.669 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:18:50.669 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:18:50.669 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:18:50.669 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:19:11.412 DEBUG (rank 0): Identified new best model: <LogEntry hash=b0925e020bc6cb3a2bc35ecede58df05, id=10>
+2026-06-03 23:19:11.429 DEBUG (rank 0): Saved best model (within-experiment ID=10) to autotune/mace_mh/0/run_260603_231727_436114b4/best_ckpt.pt
+2026-06-03 23:19:11.430 INFO (rank 0): Trial   1 | rf_type: gaussian | num_random_features:  8192   | length_scale:    1    | use_offset:  True   | rng_seed:  1337   | Best trial 1 (energy 1.17 meV/atom - forces 56.3 meV/Ang)
+2026-06-03 23:19:11.656 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=5, use_offset='True', rng_seed=1337)
+2026-06-03 23:19:11.709 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=5, use_offset='True', rng_seed=1337)
+2026-06-03 23:19:11.714 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=5, use_offset='True', rng_seed=1337)
+2026-06-03 23:19:11.715 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=5, use_offset='True', rng_seed=1337)
+2026-06-03 23:19:23.073 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:19:23.824 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:19:25.121 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:19:25.393 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:20:20.789 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:20:20.892 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:20:22.686 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:20:24.377 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:20:25.161 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:20:25.161 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:20:25.161 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:20:25.161 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:20:45.860 DEBUG (rank 0): Identified new best model: <LogEntry hash=8add6bd867de2c8f2c13eb2a95d0efa8, id=8>
+2026-06-03 23:20:45.874 DEBUG (rank 0): Saved best model (within-experiment ID=8) to autotune/mace_mh/0/run_260603_231727_436114b4/best_ckpt.pt
+2026-06-03 23:20:45.876 INFO (rank 0): Trial   2 | rf_type: gaussian | num_random_features:  8192   | length_scale:    5    | use_offset:  True   | rng_seed:  1337   | Best trial 2 (energy 0.86 meV/atom - forces 48.0 meV/Ang)
+2026-06-03 23:20:46.095 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=10, use_offset='True', rng_seed=1337)
+2026-06-03 23:20:46.150 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=10, use_offset='True', rng_seed=1337)
+2026-06-03 23:20:46.161 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=10, use_offset='True', rng_seed=1337)
+2026-06-03 23:20:46.162 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=10, use_offset='True', rng_seed=1337)
+2026-06-03 23:20:57.094 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:20:59.269 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:20:59.486 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:21:00.262 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:21:56.738 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:21:57.064 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:21:57.289 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:21:58.710 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:21:59.486 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:21:59.486 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:21:59.486 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:21:59.486 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:22:20.175 INFO (rank 0): Trial   3 | rf_type: gaussian | num_random_features:  8192   | length_scale:   10    | use_offset:  True   | rng_seed:  1337   | Best trial 2 (energy 0.86 meV/atom - forces 48.0 meV/Ang)
+2026-06-03 23:22:20.412 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=20, use_offset='True', rng_seed=1337)
+2026-06-03 23:22:20.447 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=20, use_offset='True', rng_seed=1337)
+2026-06-03 23:22:20.460 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=20, use_offset='True', rng_seed=1337)
+2026-06-03 23:22:20.460 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=20, use_offset='True', rng_seed=1337)
+2026-06-03 23:22:30.815 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:22:32.998 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:22:33.020 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:22:34.563 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:23:30.519 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:23:30.918 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:23:31.460 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:23:32.887 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:23:33.651 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:23:33.651 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:23:33.651 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:23:33.651 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:23:54.327 INFO (rank 0): Trial   4 | rf_type: gaussian | num_random_features:  8192   | length_scale:   20    | use_offset:  True   | rng_seed:  1337   | Best trial 2 (energy 0.86 meV/atom - forces 48.0 meV/Ang)
+2026-06-03 23:23:54.564 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=25, use_offset='True', rng_seed=1337)
+2026-06-03 23:23:54.600 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=25, use_offset='True', rng_seed=1337)
+2026-06-03 23:23:54.613 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=25, use_offset='True', rng_seed=1337)
+2026-06-03 23:23:54.614 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=25, use_offset='True', rng_seed=1337)
+2026-06-03 23:24:05.777 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:24:07.015 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:24:07.042 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:24:08.162 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:25:04.164 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:25:04.509 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:25:05.347 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:25:06.031 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:25:06.792 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:25:06.792 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:25:06.792 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:25:06.792 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:25:27.486 INFO (rank 0): Trial   5 | rf_type: gaussian | num_random_features:  8192   | length_scale:   25    | use_offset:  True   | rng_seed:  1337   | Best trial 2 (energy 0.86 meV/atom - forces 48.0 meV/Ang)
+2026-06-03 23:25:27.743 DEBUG (rank 0): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=30, use_offset='True', rng_seed=1337)
+2026-06-03 23:25:27.760 DEBUG (rank 2): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=30, use_offset='True', rng_seed=1337)
+2026-06-03 23:25:27.760 DEBUG (rank 3): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=30, use_offset='True', rng_seed=1337)
+2026-06-03 23:25:27.777 DEBUG (rank 1): Autotune iteration with RF parameters GaussianRFConfig(num_random_features=8192, length_scale=30, use_offset='True', rng_seed=1337)
+2026-06-03 23:25:39.040 INFO (rank 3): jacobian chunk size automatically set to 128
+2026-06-03 23:25:39.797 INFO (rank 0): jacobian chunk size automatically set to 128
+2026-06-03 23:25:40.652 INFO (rank 1): jacobian chunk size automatically set to 128
+2026-06-03 23:25:40.679 INFO (rank 2): jacobian chunk size automatically set to 128
+2026-06-03 23:26:36.931 WARNING (rank 1): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:26:37.447 WARNING (rank 3): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:26:37.767 WARNING (rank 0): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:26:39.842 WARNING (rank 2): `leading_eig` normalization has high memory usage. If you encounter OOM errors try to disable it.
+2026-06-03 23:26:40.605 DEBUG (rank 1): Retrieved 36 logs.
+2026-06-03 23:26:40.605 DEBUG (rank 3): Retrieved 36 logs.
+2026-06-03 23:26:40.605 DEBUG (rank 0): Retrieved 36 logs.
+2026-06-03 23:26:40.605 DEBUG (rank 2): Retrieved 36 logs.
+2026-06-03 23:27:01.273 INFO (rank 0): Trial   6 | rf_type: gaussian | num_random_features:  8192   | length_scale:   30    | use_offset:  True   | rng_seed:  1337   | Best trial 2 (energy 0.86 meV/atom - forces 48.0 meV/Ang)

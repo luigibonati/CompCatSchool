@@ -1,0 +1,67 @@
+{
+    "dataset": {
+        "name": null,
+        "train_path": "train.xyz",
+        "test_path": null,
+        "val_path": "val.xyz",
+        "max_train_samples": 10
+    },
+    "solver": {
+        "l2_penalty": {
+            "value": 1e-08,
+            "values": null,
+            "start": null,
+            "stop": null,
+            "num": null,
+            "scale": null
+        },
+        "force_weight": {
+            "value": 0.5,
+            "values": null,
+            "start": null,
+            "stop": null,
+            "num": null,
+            "scale": null
+        }
+    },
+    "backbone": {
+        "path_or_id": "mace_mh/0",
+        "family": "mace",
+        "interaction_block": 2
+    },
+    "rfs": {
+        "rf_type": "gaussian",
+        "num_random_features": 8192,
+        "length_scale": {
+            "value": 10.0,
+            "values": null,
+            "start": null,
+            "stop": null,
+            "num": null,
+            "scale": null
+        },
+        "use_offset": "True",
+        "rng_seed": 1337
+    },
+    "rf_normalization": "leading_eig",
+    "save_every_model": false,
+    "dtype": "float64",
+    "save_fmaps": false,
+    "metrics": [
+        "energy_MAE",
+        "forces_MAE",
+        "forces_MAE_species"
+    ],
+    "best_model_selection": [
+        "energy_MAE",
+        "forces_MAE_species_average"
+    ],
+    "scale_by_species": true,
+    "jac_chunk_size": "auto",
+    "run_dir": "sample_efficiency/mace_mh/0/10",
+    "seed": 1337,
+    "console_logging_level": "INFO",
+    "num_gpus": 4,
+    "gpu_model": "NVIDIA A100-SXM-64GB",
+    "cpu_model": " Intel(R) Xeon(R) Platinum 8358 CPU @ 2.60GHz"
+}

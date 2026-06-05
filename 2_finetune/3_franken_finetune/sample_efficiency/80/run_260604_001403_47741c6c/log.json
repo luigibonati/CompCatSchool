@@ -1,0 +1,50 @@
+[
+    {
+        "checkpoint": {
+            "hash": "39fc792e40c5d6bd98e6636995561c66",
+            "rf_weight_id": 0
+        },
+        "timings": {
+            "cov_coeffs": 42.85090601496631,
+            "solve": 0.03378908504964784
+        },
+        "metrics": {
+            "train": {
+                "energy_MAE": 0.8545556941980393,
+                "forces_MAE": 39.710527181625366,
+                "forces_MAE_species_7": 43.83738011820242,
+                "forces_MAE_species_26": 39.624553049604096,
+                "forces_MAE_species_average": 41.73096658390325
+            },
+            "validation": {
+                "energy_MAE": 0.9693879574851818,
+                "forces_MAE": 49.64370294344627,
+                "forces_MAE_species_7": 134.70416869652473,
+                "forces_MAE_species_26": 47.87161289635351,
+                "forces_MAE_species_average": 91.28789079643911
+            }
+        },
+        "hyperparameters": {
+            "franken": {
+                "path_or_id": "mace_mh/0",
+                "family": "mace",
+                "interaction_block": 2
+            },
+            "random_features": {
+                "rf_type": "gaussian",
+                "num_random_features": 8192,
+                "length_scale": 10.0,
+                "use_offset": "True",
+                "rng_seed": 1337
+            },
+            "input_scaler": {
+                "scale_by_Z": true
+            },
+            "solver": {
+                "force_weight": 0.5,
+                "l2_penalty": 1e-08,
+                "dtype": "torch.float64"
+            }
+        }
+    }
+]
