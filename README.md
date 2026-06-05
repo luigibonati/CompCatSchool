@@ -17,18 +17,22 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
 
 ```text
 0_system/
-  create_system.ipynb   Build system.
+  create_system.ipynb     Build system.
 
 1_opes/
-  opes.ipynb            Free energy estimation via OPES.
+  opes.ipynb              Free energy estimation via OPES.
 
-2_fine-tune/
-  TODO
+2_finetune/
+  1_deal_selection/       Data-efficient selection from OPES trajectories.
+  2_dft_labeling/         Reference energy and force labeling.
+  3_franken_finetune/     Fine-tuning with Franken.
+  4_opes_sampling/        OPES with the fine-tuned potential.
 
 3_kinetics/
   TODO
 
 4_active_sites/
+  TODO
 ```
 
 ## Install 
@@ -39,6 +43,8 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
 - PyTorch 2.10
 - mace 0.3.15
 - PLUMED 2.10.0
+- mlcolvar 1.3.1
+- deal 2.0.0
 
 ### Local Installation
 
