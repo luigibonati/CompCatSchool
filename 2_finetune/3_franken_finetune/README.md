@@ -1,5 +1,7 @@
 # 3. Franken Fine-Tuning
 
+Code and description: https://franken.readthedocs.io/w
+
 This stage fine-tunes a MACE-based model with Franken using the labeled
 structures from `../2_dft_labeling/`. The goal is to improve the potential in the
 N2/Fe configurations selected from enhanced sampling, without retraining a model
