@@ -29,7 +29,10 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
   4_opes_sampling/        OPES with the fine-tuned potential.
 
 3_kinetics/
-  TODO
+  analyse_results.ipynb   Free energy and rate constant from umbrella sampling.
+  1_movingrestraint       Moving-restraint simulation to gather initial structures.
+  2_umbrella_sampling     Umbrella sampling simulation of the rare event.
+  3_reactive_flux         Exact rate constant calculation, including recrossing.
 
 4_active_sites/
   TODO
@@ -45,6 +48,9 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
 - PLUMED 2.10.0
 - mlcolvar 1.3.1
 - deal 2.0.0
+
+The kinetics section also requires
+- [ThermoLIB](https://github.com/molmod/Thermolib) 1.8.0
 
 ### Local Installation
 

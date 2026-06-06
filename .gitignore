@@ -1,3 +1,6 @@
 plumed-2.10.0*
 slurm-*.out
 local/
+job.sh
+error.txt
+output.txt
