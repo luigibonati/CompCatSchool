@@ -1,5 +1,6 @@
 # OVITO surface-selection caches
 data/**/*_surface*.extxyz
+data/committor/extracted/
 data/committor/snapshots/
 data/committor/committor_*
 
