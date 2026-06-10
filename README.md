@@ -35,7 +35,8 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
   3_reactive_flux         Exact rate constant calculation, including recrossing.
 
 4_active_sites/
-  TODO
+  active_sites.ipynb       Dynamic active-site analysis with OVITO, PLUMED,
+                           OPES reweighting, committor analysis, and SOAP.
 ```
 
 ## Install 
@@ -48,6 +49,15 @@ N2 decomposition on Fe(111): <https://www.pnas.org/doi/10.1073/pnas.2313023120>.
 - PLUMED 2.10.0
 - mlcolvar 1.3.1
 - deal 2.0.0
+
+The active-sites section also requires
+- OVITO Python module
+- DScribe
+- pandas
+- Matplotlib
+- scikit-learn
+- JupyterLab
+- HDBSCAN (optional; K-means is used as a fallback)
 
 The kinetics section also requires
 - [ThermoLIB](https://github.com/molmod/Thermolib) 1.8.0
@@ -93,6 +103,13 @@ Install the Python wrapper:
 conda install -c conda-forge py-plumed -y
 ```
 
+Install the packages used by the active-sites tutorial:
+
+```bash
+pip install ovito dscribe pandas matplotlib scikit-learn jupyterlab
+pip install hdbscan  # optional
+```
+
 ### HPC Installation (Cineca Leonardo)
 
 ```bash
@@ -124,4 +141,11 @@ echo ". $PWD/sourceme.sh" >> ~/.bashrc
 
 ```bash
 conda install -c conda-forge py-plumed -y
+```
+
+Install the packages used by the active-sites tutorial:
+
+```bash
+pip install ovito dscribe pandas matplotlib scikit-learn jupyterlab
+pip install hdbscan  # optional
 ```
