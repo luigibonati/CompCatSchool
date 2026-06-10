@@ -1,0 +1,708 @@
+26152 3 47
+26233 50 0
+26323 7 43
+26373 36 14
+26412 40 10
+26491 50 0
+26542 9 41
+26592 48 2
+26630 17 33
+26678 50 0
+26723 6 44
+26760 49 1
+27069 49 1
+27117 7 43
+27177 49 1
+27251 50 0
+27318 42 8
+27364 1 49
+27382 39 11
+27432 1 49
+27463 48 2
+27557 13 37
+27604 13 37
+27670 30 20
+27816 8 42
+27907 7 43
+27990 0 50
+28127 7 43
+28298 4 46
+28360 7 43
+28411 41 9
+28469 38 12
+28519 49 1
+29635 14 36
+29900 49 1
+29952 1 49
+30058 50 0
+30756 7 43
+30883 0 50
+31070 45 5
+31093 7 43
+31214 30 20
+31334 4 46
+31361 12 38
+31410 49 1
+31467 0 50
+31524 15 35
+31985 48 2
+32128 0 50
+32145 0 50
+32211 49 1
+32322 41 9
+32424 25 25
+32531 15 35
+32578 6 44
+32641 1 49
+32681 25 25
+32713 22 28
+32836 43 7
+32897 0 50
+32933 50 0
+32997 3 47
+33068 38 12
+33161 48 2
+33333 1 49
+33380 1 49
+33476 50 0
+33610 3 47
+33643 8 42
+33691 1 49
+33723 23 27
+33833 0 50
+34051 1 49
+34206 41 9
+34229 0 50
+34298 29 21
+34370 50 0
+34427 27 23
+34472 50 0
+34552 37 13
+34695 1 49
+34820 10 40
+34872 13 37
+34959 0 50
+35073 50 0
+35160 1 49
+35400 0 50
+35473 3 47
+35552 30 20
+35610 14 36
+35816 0 50
+36069 14 36
+36460 0 50
+36679 5 45
+36909 42 8
+37034 5 45
+37326 6 44
+37407 44 6
+37509 24 26
+37690 0 50
+37721 7 43
+37783 27 23
+37843 49 1
+37899 45 5
+37949 25 25
+38015 43 7
+38518 4 46
+38651 24 26
+38856 15 35
+38926 1 49
+38974 1 49
+39131 0 50
+39267 49 1
+40498 50 0
+40609 42 8
+40652 13 37
+40689 14 36
+40761 2 48
+40795 7 43
+40923 41 9
+41015 12 38
+41149 35 15
+41206 2 48
+41275 17 33
+41345 50 0
+41385 18 32
+41700 5 45
+41747 0 50
+42965 38 12
+43009 50 0
+43088 27 23
+43195 4 46
+43494 0 50
+43788 43 7
+43865 18 32
+44220 50 0
+44271 33 17
+44333 6 44
+44516 39 11
+44558 1 49
+44608 0 50
+44714 27 23
+44802 38 12
+44850 4 46
+44950 0 50
+45039 19 31
+45098 50 0
+45971 34 16
+46028 49 1
+46076 2 48
+46129 3 47
+46192 49 1
+46252 35 15
+46301 50 0
+46374 2 48
+46423 45 5
+46449 42 8
+46485 0 50
+46551 50 0
+46636 38 12
+46683 29 21
+46815 37 13
+46874 49 1
+46993 24 26
+47048 2 48
+47590 49 1
+47686 36 14
+47719 32 18
+47768 36 14
+47802 21 29
+47931 32 18
+47964 6 44
+48071 44 6
+48101 17 33
+48193 48 2
+48226 0 50
+48293 1 49
+48331 44 6
+48392 49 1
+48502 30 20
+49856 47 3
+50016 15 35
+50109 0 50
+50197 44 6
+50230 30 20
+50291 0 50
+50435 0 50
+50569 50 0
+50611 8 42
+50742 43 7
+51153 1 49
+51195 45 5
+51339 50 0
+51387 0 50
+51451 5 45
+52224 49 1
+52367 18 32
+52454 48 2
+52519 33 17
+52592 49 1
+52705 9 41
+52776 8 42
+52847 26 24
+52907 31 19
+52984 8 42
+53056 15 35
+53102 31 19
+53196 49 1
+53273 3 47
+53393 15 35
+53431 15 35
+53560 38 12
+53625 32 18
+53676 31 19
+53752 50 0
+53785 22 28
+53974 46 4
+54124 50 0
+54190 45 5
+54284 11 39
+54347 49 1
+54383 50 0
+54479 16 34
+54543 50 0
+54614 15 35
+55492 50 0
+56182 24 26
+56324 13 37
+56377 0 50
+56486 44 6
+56544 49 1
+56692 19 31
+56846 7 43
+56876 10 40
+56955 3 47
+57063 21 29
+57110 27 23
+57178 29 21
+57227 47 3
+57302 47 3
+57695 10 40
+57750 2 48
+58498 4 46
+58575 29 21
+58625 22 28
+58691 0 50
+58822 20 30
+58891 45 5
+58933 2 48
+58997 39 11
+59128 0 50
+59324 0 50
+59429 0 50
+59474 25 25
+59520 0 50
+59626 42 8
+59721 8 42
+59750 32 18
+59817 0 50
+59893 33 17
+60072 46 4
+60098 30 20
+60222 39 11
+60254 17 33
+60329 46 4
+60385 50 0
+60459 45 5
+60510 20 30
+60580 5 45
+60630 35 15
+60695 50 0
+60946 2 48
+61158 0 50
+61295 0 50
+61539 0 50
+61837 0 50
+62030 32 18
+62122 50 0
+62311 0 50
+62398 0 50
+62585 2 48
+62658 50 0
+63658 50 0
+63804 0 50
+63881 5 45
+63956 47 3
+64055 45 5
+64132 41 9
+64213 35 15
+64313 33 17
+64349 11 39
+64460 18 32
+64514 28 22
+64578 0 50
+64666 46 4
+64858 1 49
+64950 2 48
+65084 47 3
+65148 12 38
+65315 0 50
+65563 0 50
+65747 0 50
+65940 48 2
+66006 7 39
+grep: frame-66055//results.txt: No such file or directory
+grep: frame-66055//results.txt: No such file or directory
+66055 0 0
+grep: frame-67354//results.txt: No such file or directory
+grep: frame-67354//results.txt: No such file or directory
+67354 0 0
+grep: frame-67401//results.txt: No such file or directory
+grep: frame-67401//results.txt: No such file or directory
+67401 0 0
+grep: frame-67495//results.txt: No such file or directory
+grep: frame-67495//results.txt: No such file or directory
+67495 0 0
+grep: frame-68040//results.txt: No such file or directory
+grep: frame-68040//results.txt: No such file or directory
+68040 0 0
+grep: frame-68110//results.txt: No such file or directory
+grep: frame-68110//results.txt: No such file or directory
+68110 0 0
+grep: frame-68190//results.txt: No such file or directory
+grep: frame-68190//results.txt: No such file or directory
+68190 0 0
+grep: frame-68256//results.txt: No such file or directory
+grep: frame-68256//results.txt: No such file or directory
+68256 0 0
+grep: frame-68341//results.txt: No such file or directory
+grep: frame-68341//results.txt: No such file or directory
+68341 0 0
+grep: frame-68525//results.txt: No such file or directory
+grep: frame-68525//results.txt: No such file or directory
+68525 0 0
+grep: frame-68623//results.txt: No such file or directory
+grep: frame-68623//results.txt: No such file or directory
+68623 0 0
+grep: frame-68679//results.txt: No such file or directory
+grep: frame-68679//results.txt: No such file or directory
+68679 0 0
+grep: frame-68721//results.txt: No such file or directory
+grep: frame-68721//results.txt: No such file or directory
+68721 0 0
+grep: frame-68774//results.txt: No such file or directory
+grep: frame-68774//results.txt: No such file or directory
+68774 0 0
+grep: frame-68831//results.txt: No such file or directory
+grep: frame-68831//results.txt: No such file or directory
+68831 0 0
+grep: frame-68872//results.txt: No such file or directory
+grep: frame-68872//results.txt: No such file or directory
+68872 0 0
+grep: frame-69015//results.txt: No such file or directory
+grep: frame-69015//results.txt: No such file or directory
+69015 0 0
+grep: frame-69900//results.txt: No such file or directory
+grep: frame-69900//results.txt: No such file or directory
+69900 0 0
+grep: frame-69978//results.txt: No such file or directory
+grep: frame-69978//results.txt: No such file or directory
+69978 0 0
+grep: frame-70024//results.txt: No such file or directory
+grep: frame-70024//results.txt: No such file or directory
+70024 0 0
+grep: frame-70094//results.txt: No such file or directory
+grep: frame-70094//results.txt: No such file or directory
+70094 0 0
+grep: frame-70151//results.txt: No such file or directory
+grep: frame-70151//results.txt: No such file or directory
+70151 0 0
+grep: frame-70199//results.txt: No such file or directory
+grep: frame-70199//results.txt: No such file or directory
+70199 0 0
+grep: frame-70243//results.txt: No such file or directory
+grep: frame-70243//results.txt: No such file or directory
+70243 0 0
+grep: frame-70375//results.txt: No such file or directory
+grep: frame-70375//results.txt: No such file or directory
+70375 0 0
+grep: frame-70442//results.txt: No such file or directory
+grep: frame-70442//results.txt: No such file or directory
+70442 0 0
+grep: frame-70504//results.txt: No such file or directory
+grep: frame-70504//results.txt: No such file or directory
+70504 0 0
+grep: frame-70534//results.txt: No such file or directory
+grep: frame-70534//results.txt: No such file or directory
+70534 0 0
+grep: frame-70758//results.txt: No such file or directory
+grep: frame-70758//results.txt: No such file or directory
+70758 0 0
+grep: frame-70844//results.txt: No such file or directory
+grep: frame-70844//results.txt: No such file or directory
+70844 0 0
+grep: frame-70964//results.txt: No such file or directory
+grep: frame-70964//results.txt: No such file or directory
+70964 0 0
+grep: frame-71077//results.txt: No such file or directory
+grep: frame-71077//results.txt: No such file or directory
+71077 0 0
+grep: frame-71142//results.txt: No such file or directory
+grep: frame-71142//results.txt: No such file or directory
+71142 0 0
+grep: frame-71227//results.txt: No such file or directory
+grep: frame-71227//results.txt: No such file or directory
+71227 0 0
+grep: frame-71287//results.txt: No such file or directory
+grep: frame-71287//results.txt: No such file or directory
+71287 0 0
+grep: frame-71384//results.txt: No such file or directory
+grep: frame-71384//results.txt: No such file or directory
+71384 0 0
+grep: frame-71419//results.txt: No such file or directory
+grep: frame-71419//results.txt: No such file or directory
+71419 0 0
+grep: frame-71485//results.txt: No such file or directory
+grep: frame-71485//results.txt: No such file or directory
+71485 0 0
+grep: frame-71559//results.txt: No such file or directory
+grep: frame-71559//results.txt: No such file or directory
+71559 0 0
+grep: frame-71673//results.txt: No such file or directory
+grep: frame-71673//results.txt: No such file or directory
+71673 0 0
+grep: frame-71773//results.txt: No such file or directory
+grep: frame-71773//results.txt: No such file or directory
+71773 0 0
+grep: frame-72047//results.txt: No such file or directory
+grep: frame-72047//results.txt: No such file or directory
+72047 0 0
+grep: frame-72119//results.txt: No such file or directory
+grep: frame-72119//results.txt: No such file or directory
+72119 0 0
+grep: frame-72209//results.txt: No such file or directory
+grep: frame-72209//results.txt: No such file or directory
+72209 0 0
+grep: frame-72279//results.txt: No such file or directory
+grep: frame-72279//results.txt: No such file or directory
+72279 0 0
+grep: frame-72339//results.txt: No such file or directory
+grep: frame-72339//results.txt: No such file or directory
+72339 0 0
+grep: frame-72432//results.txt: No such file or directory
+grep: frame-72432//results.txt: No such file or directory
+72432 0 0
+grep: frame-72695//results.txt: No such file or directory
+grep: frame-72695//results.txt: No such file or directory
+72695 0 0
+grep: frame-72744//results.txt: No such file or directory
+grep: frame-72744//results.txt: No such file or directory
+72744 0 0
+grep: frame-72816//results.txt: No such file or directory
+grep: frame-72816//results.txt: No such file or directory
+72816 0 0
+grep: frame-72908//results.txt: No such file or directory
+grep: frame-72908//results.txt: No such file or directory
+72908 0 0
+grep: frame-72989//results.txt: No such file or directory
+grep: frame-72989//results.txt: No such file or directory
+72989 0 0
+grep: frame-73732//results.txt: No such file or directory
+grep: frame-73732//results.txt: No such file or directory
+73732 0 0
+grep: frame-73795//results.txt: No such file or directory
+grep: frame-73795//results.txt: No such file or directory
+73795 0 0
+grep: frame-74133//results.txt: No such file or directory
+grep: frame-74133//results.txt: No such file or directory
+74133 0 0
+grep: frame-74181//results.txt: No such file or directory
+grep: frame-74181//results.txt: No such file or directory
+74181 0 0
+grep: frame-74209//results.txt: No such file or directory
+grep: frame-74209//results.txt: No such file or directory
+74209 0 0
+grep: frame-74256//results.txt: No such file or directory
+grep: frame-74256//results.txt: No such file or directory
+74256 0 0
+grep: frame-74321//results.txt: No such file or directory
+grep: frame-74321//results.txt: No such file or directory
+74321 0 0
+grep: frame-74383//results.txt: No such file or directory
+grep: frame-74383//results.txt: No such file or directory
+74383 0 0
+grep: frame-74449//results.txt: No such file or directory
+grep: frame-74449//results.txt: No such file or directory
+74449 0 0
+grep: frame-74712//results.txt: No such file or directory
+grep: frame-74712//results.txt: No such file or directory
+74712 0 0
+grep: frame-74831//results.txt: No such file or directory
+grep: frame-74831//results.txt: No such file or directory
+74831 0 0
+grep: frame-74886//results.txt: No such file or directory
+grep: frame-74886//results.txt: No such file or directory
+74886 0 0
+grep: frame-75403//results.txt: No such file or directory
+grep: frame-75403//results.txt: No such file or directory
+75403 0 0
+grep: frame-75516//results.txt: No such file or directory
+grep: frame-75516//results.txt: No such file or directory
+75516 0 0
+grep: frame-75649//results.txt: No such file or directory
+grep: frame-75649//results.txt: No such file or directory
+75649 0 0
+grep: frame-75711//results.txt: No such file or directory
+grep: frame-75711//results.txt: No such file or directory
+75711 0 0
+grep: frame-75791//results.txt: No such file or directory
+grep: frame-75791//results.txt: No such file or directory
+75791 0 0
+grep: frame-75844//results.txt: No such file or directory
+grep: frame-75844//results.txt: No such file or directory
+75844 0 0
+grep: frame-75972//results.txt: No such file or directory
+grep: frame-75972//results.txt: No such file or directory
+75972 0 0
+grep: frame-76049//results.txt: No such file or directory
+grep: frame-76049//results.txt: No such file or directory
+76049 0 0
+grep: frame-76134//results.txt: No such file or directory
+grep: frame-76134//results.txt: No such file or directory
+76134 0 0
+grep: frame-76293//results.txt: No such file or directory
+grep: frame-76293//results.txt: No such file or directory
+76293 0 0
+grep: frame-76433//results.txt: No such file or directory
+grep: frame-76433//results.txt: No such file or directory
+76433 0 0
+grep: frame-76476//results.txt: No such file or directory
+grep: frame-76476//results.txt: No such file or directory
+76476 0 0
+grep: frame-76578//results.txt: No such file or directory
+grep: frame-76578//results.txt: No such file or directory
+76578 0 0
+grep: frame-76670//results.txt: No such file or directory
+grep: frame-76670//results.txt: No such file or directory
+76670 0 0
+grep: frame-76751//results.txt: No such file or directory
+grep: frame-76751//results.txt: No such file or directory
+76751 0 0
+grep: frame-76823//results.txt: No such file or directory
+grep: frame-76823//results.txt: No such file or directory
+76823 0 0
+grep: frame-76941//results.txt: No such file or directory
+grep: frame-76941//results.txt: No such file or directory
+76941 0 0
+grep: frame-77030//results.txt: No such file or directory
+grep: frame-77030//results.txt: No such file or directory
+77030 0 0
+grep: frame-77088//results.txt: No such file or directory
+grep: frame-77088//results.txt: No such file or directory
+77088 0 0
+grep: frame-77212//results.txt: No such file or directory
+grep: frame-77212//results.txt: No such file or directory
+77212 0 0
+grep: frame-77250//results.txt: No such file or directory
+grep: frame-77250//results.txt: No such file or directory
+77250 0 0
+grep: frame-77333//results.txt: No such file or directory
+grep: frame-77333//results.txt: No such file or directory
+77333 0 0
+grep: frame-77388//results.txt: No such file or directory
+grep: frame-77388//results.txt: No such file or directory
+77388 0 0
+grep: frame-77475//results.txt: No such file or directory
+grep: frame-77475//results.txt: No such file or directory
+77475 0 0
+grep: frame-77574//results.txt: No such file or directory
+grep: frame-77574//results.txt: No such file or directory
+77574 0 0
+grep: frame-78009//results.txt: No such file or directory
+grep: frame-78009//results.txt: No such file or directory
+78009 0 0
+grep: frame-78088//results.txt: No such file or directory
+grep: frame-78088//results.txt: No such file or directory
+78088 0 0
+grep: frame-78145//results.txt: No such file or directory
+grep: frame-78145//results.txt: No such file or directory
+78145 0 0
+grep: frame-78192//results.txt: No such file or directory
+grep: frame-78192//results.txt: No such file or directory
+78192 0 0
+grep: frame-78305//results.txt: No such file or directory
+grep: frame-78305//results.txt: No such file or directory
+78305 0 0
+grep: frame-78370//results.txt: No such file or directory
+grep: frame-78370//results.txt: No such file or directory
+78370 0 0
+grep: frame-78478//results.txt: No such file or directory
+grep: frame-78478//results.txt: No such file or directory
+78478 0 0
+grep: frame-78571//results.txt: No such file or directory
+grep: frame-78571//results.txt: No such file or directory
+78571 0 0
+grep: frame-78633//results.txt: No such file or directory
+grep: frame-78633//results.txt: No such file or directory
+78633 0 0
+grep: frame-78673//results.txt: No such file or directory
+grep: frame-78673//results.txt: No such file or directory
+78673 0 0
+grep: frame-78737//results.txt: No such file or directory
+grep: frame-78737//results.txt: No such file or directory
+78737 0 0
+grep: frame-78892//results.txt: No such file or directory
+grep: frame-78892//results.txt: No such file or directory
+78892 0 0
+grep: frame-79024//results.txt: No such file or directory
+grep: frame-79024//results.txt: No such file or directory
+79024 0 0
+grep: frame-79101//results.txt: No such file or directory
+grep: frame-79101//results.txt: No such file or directory
+79101 0 0
+grep: frame-79174//results.txt: No such file or directory
+grep: frame-79174//results.txt: No such file or directory
+79174 0 0
+80252 47 3
+80307 50 0
+80429 0 50
+80490 47 3
+80532 0 50
+80613 33 17
+80658 23 27
+80741 49 1
+80768 20 30
+80847 49 1
+80934 33 17
+81009 44 6
+81051 25 25
+81120 50 0
+81312 50 0
+81386 16 34
+81423 5 45
+81482 19 31
+81516 13 37
+81603 5 45
+81721 0 50
+82004 2 48
+82353 5 45
+82418 15 35
+83078 0 50
+83116 0 50
+83166 13 37
+83249 5 45
+83345 5 45
+83445 4 46
+83508 25 25
+83674 27 23
+83747 31 19
+83825 46 4
+84389 49 1
+84496 11 39
+84586 49 1
+84661 0 50
+84805 2 48
+84887 49 1
+84986 10 40
+85086 40 10
+85133 49 1
+85195 49 1
+85251 0 50
+85374 5 45
+85440 0 50
+85593 15 35
+85666 11 39
+85780 0 50
+86002 20 30
+86104 14 36
+86179 0 50
+86225 46 4
+86319 47 3
+86364 4 46
+86476 0 50
+86661 0 50
+86789 14 36
+86890 2 48
+86949 16 34
+88012 50 0
+88098 42 8
+88207 50 0
+88334 18 32
+88404 4 46
+88472 0 50
+88717 1 49
+88854 26 24
+88944 0 50
+89042 0 50
+89145 0 50
+89282 22 28
+90202 21 29
+90284 21 29
+90341 14 36
+90475 47 3
+90580 36 14
+90969 10 40
+91030 0 50
+91102 24 26
+91839 22 28
+92032 29 21
+92209 18 32
+92305 7 43
+92330 34 16
+92366 3 47
+92519 6 44
+92581 44 6
+92632 3 47
+92760 0 50
+92813 33 17

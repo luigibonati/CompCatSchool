@@ -1,0 +1,15 @@
+# OVITO surface-selection caches
+data/**/*_surface*.extxyz
+data/committor/snapshots/
+data/committor/committor_*
+
+# PLUMED working files and outputs
+plumed/
+
+# SOAP exports
+soap_cluster_nonreactive_trajectories/
+soap_cluster_reactive_frames/
+soap_cluster_reactive_trajectories/
+
+# Notebook checkpoints
+.ipynb_checkpoints/

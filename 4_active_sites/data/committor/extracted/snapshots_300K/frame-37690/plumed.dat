@@ -1,0 +1,20 @@
+
+UNITS LENGTH=A
+
+# N2 dist
+d_n2: DISTANCE ATOMS=769,770
+
+# Committor
+COMMITTOR ...
+    ARG=d_n2
+    STRIDE=50
+    BASIN_LL1=1.0
+    BASIN_UL1=1.4
+    BASIN_LL2=2.0
+    BASIN_UL2=4.0
+...
+
+# Print
+PRINT ARG=* STRIDE=10000 FILE=COLVAR 
+FLUSH STRIDE=10000
+            
